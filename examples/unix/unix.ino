@@ -1,8 +1,8 @@
-#include "SimpleNTP.h" //works for ONLY ESP32!!
+#include "SimpleNTP.h" 
 #include <WiFi.h>
 
-const char* ssid       = "arduino"; //ssid and password
-const char* password   = "arduinowifi";
+const char* ssid       = "x"; //ssid and password
+const char* password   = "x";
 
 SimpleNTP ntp;
 
