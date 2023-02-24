@@ -1,0 +1,3 @@
+# SimpleNTP
+
+WORKS WITH ESP32 AND ESP8266(not tested)
