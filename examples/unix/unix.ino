@@ -13,9 +13,12 @@ float DST = 0; //x 3600
 //it automaticly x 3600
 
 
+//const char* TZ_INFO    = "xxxxx"; //your tz info if you live in a dst country
+
 void setup() {
   ntp.begin(  GMT  ,  DST  );
-
+  //setenv("TZ", TZ_INFO, 1);
+  
   Serial.begin(115200);
   Serial.printf("Connecting to %s ", ssid);
   WiFi.begin(ssid, password);
